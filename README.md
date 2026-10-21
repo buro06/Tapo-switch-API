@@ -12,6 +12,8 @@ python3 -m venv .venv
 .venv/bin/python -m tapo_switch_api
 ```
 
+On Windows, double-click `run.cmd` (or run it from a terminal). It creates `.venv` and installs the requirements the first time, then launches the CLI. Arguments are passed through, e.g. `run.cmd --port 9000`.
+
 On newer firmware, open the Tapo app and turn on **Me → Third-Party Services → Third-Party Compatibility**. Without it, local control fails with authentication errors.
 
 ## First run
